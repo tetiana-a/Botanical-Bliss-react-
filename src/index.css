@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    animation: animate 12s
+    infinite linear alternate;
+   
+    
+    
+  }
+  
+  @keyframes animate {
+    0% {
+      background-color: rgb(253, 255, 186);
+    }
+    25% {
+      background-color:rgb(137, 244, 208);
+    }
+    75% {
+      background-color:bisque;
+    }
+    100% {
+      background-color:blanchedalmond;
+    }
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .btns {
+    padding: 10px 20px;
+    margin-right: 6px;
+    background: transparent;
+    border: none;
+    border: 0.6px solid #ccc;
+    border-radius: 5px;
+    color: #323232;
+    cursor: pointer;
+  }
+
+  
